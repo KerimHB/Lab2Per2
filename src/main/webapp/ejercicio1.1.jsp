@@ -9,7 +9,7 @@
     String connectionUrl = "jdbc:mysql://localhost:3306/";
     String database = "empresa";
     String userid = "root";
-    String password = "";
+    String password = "nike";
     try {
         Class.forName(driver);
     } catch (ClassNotFoundException e) {
