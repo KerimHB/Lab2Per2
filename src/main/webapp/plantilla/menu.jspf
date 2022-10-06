@@ -1,4 +1,4 @@
-
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Laboratorio #2</title>
@@ -16,7 +16,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link text-white" aria-current="page" href="index.jsp">Inicio</a>
-                    <a class="nav-link text-white" href="/templates/ejercicio1.1.jsp">Consulta Epleados</a>
+                    <a class="nav-link text-white" href="ejercicio1.1.jsp">Consulta Epleados</a>
                     <a class="nav-link text-white" href="#">Filtro Departamento</a>
                     <a class="nav-link text-white" href="#">Salario Medio(Todos)</a>
                     <a class="nav-link text-white" href="#">Salario Mayor y Menor</a>
