@@ -64,9 +64,11 @@
         </tr>
         <%
             String where = "";
-            if (request.getParameter("combo") != null && request.getParameter("combo") != "0"){
+            if (request.getParameter("combo") != null){
                 String dept_no = request.getParameter("combo");
-                where = "WHERE dept_no="+dept_no;
+                if (!dept_no.equals("0")){
+                    where = "WHERE dept_no="+dept_no;
+                }
             }
             try{
                 statement=connection.createStatement();
