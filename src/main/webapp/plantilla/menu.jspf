@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
     <title>Laboratorio #2</title>
@@ -17,12 +17,12 @@
                 <div class="navbar-nav">
                     <a class="nav-link text-white" aria-current="page" href="index.jsp">Inicio</a>
                     <a class="nav-link text-white" href="ejercicio1.1.jsp">Consulta Epleados</a>
-                    <a class="nav-link text-white" href="#">Filtro Departamento</a>
-                    <a class="nav-link text-white" href="#">Salario Medio(Todos)</a>
-                    <a class="nav-link text-white" href="#">Salario Mayor y Menor</a>
-                    <a class="nav-link text-white" href="#">Salario por Departamento</a>
-                    <a class="nav-link text-white" href="#">CRUD Empleados</a>
-                    <a class="nav-link text-white" href="#">CRUD Departamentos</a>
+                    <a class="nav-link text-white" href="ejercicio1.2.jsp">Filtro Departamento</a>
+                    <a class="nav-link text-white" href="ejercicio1.3.jsp">Salario Medio(Todos)</a>
+                    <a class="nav-link text-white" href="ejercicio1.4.jsp">Salario Mayor y Menor</a>
+                    <a class="nav-link text-white" href="ejercicio1.5.jsp">Salario por Departamento</a>
+                    <a class="nav-link text-white" href="ejercicio1.6.jsp">CRUD Empleados</a>
+                    <a class="nav-link text-white" href="ejercicio1.7.jsp">CRUD Departamentos</a>
                 </div>
             </div>
         </div>
